@@ -1,0 +1,74 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const { page } = Astro.props;
+---
+
+<Layout
+  title="Academus | tu puerta al conocimiento innovador"
+  description="Educación, Investigación y desarrollo Empresarial"
+>
+  <main>
+    <section class="flex flex-col px-40 justify-center items-center">
+      <!-- <article class="flex flex-col w-1/2 gap-6">
+        <h1 class="text-6xl font-semibold text-center">
+          Academus, tu puerta al conocimiento innovador
+        </h1>
+        <p class="text-base">
+          Academus es una plataforma de educación, investigación y desarrollo
+          empresarial que busca enseñar a las personas a desarrollar sus
+          habilidades, conocimientos y competencias para que puedan ser
+          competitivos en el mercado laboral.
+        </p>
+        <button
+          class="self-start bg-black text-white py-3 px-4 rounded-lg"
+          onclick="window.location.href='/cursos'">Contáctanos</button
+        >
+      </article>
+      <div class="flex flex-col items-center w-1/2 justify-center">
+        <img src="/banner.png" alt="Hero" class="w-full" />
+      </div> -->
+      <h1 class="text-8xl font-semibold text-center">
+        Academus, tu puerta al conocimiento innovador
+      </h1>
+      <p class="text-lg w-2/3 mt-10 text-[#515151]">
+        Academus es una plataforma de educación, investigación y desarrollo
+        empresarial que busca enseñar a las personas a desarrollar sus
+        habilidades, conocimientos y competencias para que puedan ser
+        competitivos en el mercado laboral.
+      </p>
+      <div class="flex flex-row mt-10 gap-7">
+        <a
+          href="/cursos"
+          class="self-start bg-[#e7e8ec] text-black py-4 px-5 rounded-lg"
+          >Nuestros cursos</a
+        >
+        <a
+          href="/contacto"
+          class="self-start bg-black text-white py-4 px-5 rounded-lg"
+          >Contáctanos</a
+        >
+      </div>
+      <section class="flex flex-row justify-center gap-4 my-20">
+        <img
+          src="/img-1.jpg"
+          alt="Hero"
+          class="h-[400px] w-[330px] object-cover rounded-2xl"
+        />
+        <img
+          src="/img-1.jpg"
+          alt="Hero"
+          class="h-[400px] w-[330px] object-cover rounded-2xl"
+        /><img
+          src="/img-1.jpg"
+          alt="Hero"
+          class="h-[400px] w-[330px] object-cover rounded-2xl"
+        /><img
+          src="/img-1.jpg"
+          alt="Hero"
+          class="h-[400px] w-[330px] object-cover rounded-2xl"
+        />
+      </section>
+    </section>
+  </main>
+</Layout>
